@@ -1,2 +1,3 @@
 # kurly-erd
-![kurly-1623639697945](https://user-images.githubusercontent.com/53700256/121833931-70277a80-cd08-11eb-8767-dc16a0efd572.png)
+![kurly-162363969794](https://user-images.githubusercontent.com/53700256/121834026-acf37180-cd08-11eb-827f-e3f9d4dd6350.png)
+
