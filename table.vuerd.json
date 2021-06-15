@@ -3,8 +3,8 @@
     "version": "2.0.13",
     "width": 2500,
     "height": 1500,
-    "scrollTop": -136,
-    "scrollLeft": -824,
+    "scrollTop": -148,
+    "scrollLeft": -332,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -394,7 +394,7 @@
           "active": false,
           "left": 845.5515873015886,
           "top": 476.21825396825204,
-          "zIndex": 124,
+          "zIndex": 14,
           "widthName": 60,
           "widthComment": 60
         },
@@ -723,7 +723,7 @@
           "active": false,
           "left": 1715.3769841269796,
           "top": 231.32142857142662,
-          "zIndex": 214,
+          "zIndex": 22,
           "widthName": 60,
           "widthComment": 60
         },
@@ -983,7 +983,7 @@
           "active": false,
           "left": 945.5515873015904,
           "top": 18.75,
-          "zIndex": 125,
+          "zIndex": 15,
           "widthName": 83,
           "widthComment": 67
         },
@@ -1335,7 +1335,7 @@
           "active": false,
           "left": 2009.511904761901,
           "top": 790.6746031746025,
-          "zIndex": 133,
+          "zIndex": 21,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1664,7 +1664,7 @@
           "active": false,
           "left": 2136.4642857142894,
           "top": 17.793650793648567,
-          "zIndex": 131,
+          "zIndex": 19,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1840,7 +1840,7 @@
           "active": false,
           "left": 1323.4523809523894,
           "top": 649.9999999999975,
-          "zIndex": 11,
+          "zIndex": 9,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1970,7 +1970,7 @@
           "active": false,
           "left": 1306.9246031746113,
           "top": 352.26190476190453,
-          "zIndex": 12,
+          "zIndex": 10,
           "widthName": 89,
           "widthComment": 73
         },
@@ -2100,7 +2100,7 @@
           "active": false,
           "left": 251.25793650793537,
           "top": 565.1111111111111,
-          "zIndex": 21,
+          "zIndex": 12,
           "widthName": 91,
           "widthComment": 60
         },
@@ -2345,7 +2345,7 @@
           "active": false,
           "left": 1279.25,
           "top": 68,
-          "zIndex": 14,
+          "zIndex": 11,
           "widthName": 88,
           "widthComment": 67
         },
@@ -2628,7 +2628,7 @@
           "active": false,
           "left": 601.47222222222,
           "top": 144.41666666666652,
-          "zIndex": 118,
+          "zIndex": 13,
           "widthName": 60,
           "widthComment": 60
         },
@@ -2804,7 +2804,7 @@
           "active": false,
           "left": 370.25,
           "top": 328,
-          "zIndex": 130,
+          "zIndex": 18,
           "widthName": 90,
           "widthComment": 60
         },
@@ -2846,7 +2846,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -2865,7 +2865,7 @@
           "active": false,
           "left": 2233.75,
           "top": 598,
-          "zIndex": 225,
+          "zIndex": 24,
           "widthName": 60,
           "widthComment": 60
         },
@@ -2949,7 +2949,7 @@
           "active": false,
           "left": 2221.25,
           "top": 300.5,
-          "zIndex": 224,
+          "zIndex": 23,
           "widthName": 86,
           "widthComment": 60
         },
@@ -2966,7 +2966,7 @@
           "active": false,
           "left": 1773.583333333335,
           "top": 71.41666666666652,
-          "zIndex": 132,
+          "zIndex": 43,
           "width": 138,
           "height": 122
         },
@@ -2990,7 +2990,7 @@
           "active": false,
           "left": 1559.7500000000016,
           "top": 15,
-          "zIndex": 127,
+          "zIndex": 16,
           "width": 163,
           "height": 100
         },
@@ -3002,21 +3002,21 @@
           "active": false,
           "left": 630.1666666666673,
           "top": 1156.027777777777,
-          "zIndex": 7,
+          "zIndex": 41,
           "width": 153,
           "height": 210
         },
         "id": "c484d14b-a0e5-403d-a2ba-f2617ca4b6e1"
       },
       {
-        "value": "[회원] - 분류(enum)\n남(man),\n녀(woman),\n선택안함(none)\n",
+        "value": "[회원] - 분류\n- gender\n남성(m),\n여성(f)\n\n- 수락여뷰\n수락(y),\n거부(n)\n\n",
         "ui": {
           "active": false,
-          "left": 1150.2222222222208,
-          "top": 497.44444444444366,
-          "zIndex": 128,
+          "left": 1145.2222222222208,
+          "top": 407.69444444444366,
+          "zIndex": 59,
           "width": 127,
-          "height": 101
+          "height": 177
         },
         "id": "b38affcf-ca8b-4437-9bdf-40116d0f1748"
       },
@@ -3031,6 +3031,18 @@
           "height": 100
         },
         "id": "595f00a4-0a7e-4c0b-a0e3-d659a70e361e"
+      },
+      {
+        "value": "[회원등급] -분류\n- 수락여뷰\n수락(y),\n거부(n)\n",
+        "ui": {
+          "active": true,
+          "left": 228.25,
+          "top": 296.75,
+          "zIndex": 60,
+          "width": 127,
+          "height": 100
+        },
+        "id": "e992bd6c-183b-4d05-bef9-03de502ec4f9"
       }
     ]
   },
